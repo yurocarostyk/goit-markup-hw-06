@@ -615,6 +615,7 @@ img {
   display: flex;
   flex-direction: column;
   /*margin-right: 120px;*/
+  margin-bottom: 72px;
 }
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
@@ -656,7 +657,6 @@ img {
 }
 .footer-soc {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 16px;
 }
@@ -1026,6 +1026,9 @@ img {
     display: flex;
     gap: 24px;
     margin-left: 92px;
+  }
+  .footer-container-web {
+    margin-bottom: 0;
   }
   .footer-logo {
     margin-left: 0;
