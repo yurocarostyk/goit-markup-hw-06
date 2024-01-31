@@ -372,15 +372,18 @@ img {
   background-color: #f4f4fd;
   margin-bottom: 8px;
 }*/
+.feature-icons {
+  display: none;
+}
 
 .features-item {
   /*width: calc((100% - 72px) / 4);*/
 }
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
@@ -1114,6 +1117,16 @@ img {
     background-color: #f4f4fd;
     margin-bottom: 8px;
   }
+  .feature-icons {
+  display: flex;
+}
+  .features-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
   /**-------------team-------*/
   .team > .container {
     max-width: 1158px;
