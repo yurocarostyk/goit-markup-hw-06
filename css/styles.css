@@ -1118,15 +1118,16 @@ img {
     margin-bottom: 8px;
   }
   .feature-icons {
-  display: flex;
-}
+    display: flex;
+  }
   .features-subtitle {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
   /**-------------team-------*/
   .team > .container {
     max-width: 1158px;
