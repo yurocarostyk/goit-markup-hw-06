@@ -1158,7 +1158,6 @@ img {
   .footer-container {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
     gap: 80px;
   }
   .footer-container-web {
